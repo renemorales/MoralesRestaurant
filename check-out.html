@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Basic Page Needs-->
+	<title>Check out</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Rene Morales">
+	<!--Mobile Specific Metas-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="IMG/icons/home-boxed-logo.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker-bootstrap/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/jqueryui/jquery-ui.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/dist/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+<div class="animsition">	
+	<header>
+		<!-- Header desktop -->
+		<div id="wrap_header" >
+			<!-- Logo -->		
+			<div class="logo col_header">
+				<a href="index.html"><img alt="logo-restaurant" src="IMG/RestaurantLogo2.0-1.png"></a>
+			</div>
+			<!-- Menu -->
+			<div class="main_nav">
+				<nav class="menu col_header">
+					<ul class="main_menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu-01.html">Menus</a></li>
+						<li><a href="reservation-01.html" class="have_sub_menu">Reservation</a></li>
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="shopping-cart.html">Features</a>
+							<ul class="sub_menu">
+								<li><a href="shopping-cart.html">Shopping Cart</a></li>
+								<li><a href="check-out.html">Check Out</a></li>
+							</ul>
+						</li>
+						<li><a href="contact-us.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Socials -->
+			<div class="icon-header col_header">
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div id="wrap_header_mobile">
+		
+			<!-- Logo moblie -->		
+			<div class="logo-mobile">
+				<a href="index.html"><img alt="logo-restaurant" src="IMG/RestaurantLogo2.0-1.png"></a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu">
+				<button class="btn-show-menu-mobile hamburger hamburger--squeeze" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>	
+		</div>
+
+		<!-- Menu Mobile -->
+		<div class="wrap-side-menu" >
+			<nav class="side-menu">
+				<ul class="main-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu-01.html">Menus</a></li>
+					<li><a href="reservation-01.html">Reservation</a></li>
+					<li><a href="about-us.html">About us</a></li>
+					<li>
+						<a href="shopping-cart.html">Features</a>
+						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
+						<ul class="sub-menu">
+							<li><a href="shopping-cart.html">Shopping Cart</a></li>
+							<li><a href="check-out.html">Check Out</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="contact-us.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Title page -->
+	<section>
+		<div class="bg-title-sub-page bg-menu-page-02 ">
+			<div class="wrap-title-sub-page">
+				<h2 class="title-l">Check out</h2>
+			</div>
+		</div>
+	</section>
+
+	<section class="content-checkout-page">
+		<div class="container">
+			
+			<!-- 01/Check out method -->
+			<form>
+				<div class="wrap-check-out-method">
+					<p>
+						If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+					</p>
+
+					<div class="row">
+						<div class="col-res-check-out-method col-md-5">
+							<input class="input-check-out small-text" type="text" name="username" placeholder="Username or email">
+						</div>
+						<div class="col-res-check-out-method col-md-5">
+							<input class="input-check-out small-text" type="password" name="password" placeholder="Password">
+						</div>
+						<div class="wrap-btn-login col-md-2">
+							<button class="btn-login-extend btn-with-bg">LOG IN</button>
+							<a href="#" class="small-text">Lost your password?</a>
+
+						</div>
+					</div>
+				</div>				
+			</form>
+
+			<form>
+				<!-- 02/Billing & shipping detail -->
+				<div class="wrap-billing-shipping-detail">
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<!-- -->
+							<div class="input-billing-shipping-detail row">
+								<div class="col-12">
+								</div>
+
+								<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+									<input class="input-check-out small-text" type="text" name="first-name" placeholder="First name">
+								</div>
+								<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+									<input class="input-check-out small-text" type="text" name="last-name" placeholder="Last name">
+								</div>
+								<div class="col-12">
+									<input class="input-check-out small-text" type="text" name="company" placeholder="Company (optinal)">
+								</div>
+								<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+									<input class="input-check-out small-text" type="text" name="address" placeholder="Address">
+								</div>
+								<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+									<input class="input-check-out small-text" type="text" name="apt-suit" placeholder="Apt, suite, etc. (optinal)">
+								</div>
+							</div>
+
+							<div class="wrap-chose-address-extend for-check-out-page">
+								<div class="row">
+									<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+										<select class=" chose-people" name="chose-people">
+											<option>City</option>
+											<option>City 2</option>
+											<option>City 3</option>
+											<option>City 4</option>
+											<option>City 5</option>
+											<option>City 6</option>
+										</select>
+									</div>
+
+									<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+										<select class="chose-time" name="chose-time">
+											<option>State</option>
+											<option>State 2</option>
+											<option>State 3</option>
+											<option>State 4</option>
+											<option>State 5</option>
+											<option>State 6</option>
+										</select>
+									</div>
+								</div>
+							</div>
+
+							<div class="input-billing-shipping-detail row">
+								<div class="col-12">
+									<input class="input-check-out small-text" type="text" name="postcode" placeholder="Postcode / ZIP">
+								</div>
+								<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+									<input class="input-check-out small-text" type="text" name="phone" placeholder="Phone">
+								</div>
+								<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+									<input class="input-check-out small-text" type="text" name="email" placeholder="Email">
+								</div>
+							</div>	
+						</div>
+						
+						<div class="col-sm-12 col-md-6">
+							<div class="row">
+								<!-- -->
+								<div class="wrap-checkbox-different-address col-12">
+									<input type="checkbox" id="different-address" name="different-address"> 
+									<label for="different-address">
+										<span class="btn-check"></span>
+										<span class="text-checkbox small-text">Ship to a different address?</span>
+									</label>
+								</div>
+								
+								<div class="col-12 wrap-input-different-address">
+									<!-- -->
+									<div class="input-billing-shipping-detail row">
+										
+										<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+											<input class="input-check-out small-text" type="text" name="first-name" placeholder="First name">
+										</div>
+										<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+											<input class="input-check-out small-text" type="text" name="last-name" placeholder="Last name">
+										</div>
+										<div class="col-12">
+											<input class="input-check-out small-text" type="text" name="company" placeholder="Company (optinal)">
+										</div>
+										<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+											<input class="input-check-out small-text" type="text" name="address" placeholder="Address">
+										</div>
+										<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+											<input class="input-check-out small-text" type="text" name="apt-suit" placeholder="Apt, suite, etc. (optinal)">
+										</div>
+									</div>
+
+									<div class="wrap-chose-address-extend for-check-out-page">
+										<div class="row">
+											<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+												<select class=" chose-people" name="chose-people">
+													<option>City</option>
+													<option>City 2</option>
+													<option>City 3</option>
+													<option>City 4</option>
+													<option>City 5</option>
+													<option>City 6</option>
+												</select>
+											</div>
+
+											<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+												<select class="chose-time" name="chose-time">
+													<option>State</option>
+													<option>State 2</option>
+													<option>State 3</option>
+													<option>State 4</option>
+													<option>State 5</option>
+													<option>State 6</option>
+												</select>
+											</div>
+										</div>
+									</div>
+
+									<div class="input-billing-shipping-detail row">
+										<div class="col-12">
+											<input class="input-check-out small-text" type="text" name="postcode" placeholder="Postcode / ZIP">
+										</div>
+										<div class="col-res-input-billing-shipping-detail left col-md-12 col-lg-6">
+											<input class="input-check-out small-text" type="text" name="phone" placeholder="Phone">
+										</div>
+										<div class="col-res-input-billing-shipping-detail right col-md-12 col-lg-6">
+											<input class="input-check-out small-text" type="text" name="email" placeholder="Email">
+										</div>
+									</div>	
+								</div>
+
+								<div class="wrap-order-note input-billing-shipping-detail col-12">
+									<textarea class="order-note small-text" name="order-note" placeholder="Order notes"></textarea>
+								</div>
+
+								
+							</div>
+						</div>
+
+						<div class="wrap-checkbox-different-address col-12">
+							<input type="checkbox" id="save-info" name="save-info"> 
+							<label for="save-info">
+								<span class="btn-check"></span>
+								<span class="text-checkbox small-text">Save this information for next time</span>
+							</label>
+						</div>
+						<!-- -->
+					</div>
+				</div>
+
+				<!-- Your order -->
+				<div class="wrap-your-order">
+					<div class="title-your-order">
+						<h4 class="medium-text-2">Your order</h4>
+					</div>
+
+					<div class="table-your-order-extend wrap-table-shopping-cart">
+						<table class="table-shopping-cart">
+							<tr class="table_head">
+								<th class="column-2">Product</th>
+								<th class="column-3">Total</th>
+							</tr>
+
+							<tr class="table-row">
+								<td class="column-2">Pork Grilled x 2</td>
+								<td class="column-3">$ 5.00</td>
+							</tr>
+
+							<tr class="table-row">
+								<td class="column-2">Subtotal</td>
+								<td class="column-3">$ 3.00</td>
+							</tr>
+
+							<tr class="table-row">
+								<td class="column-2">Shipping</td>
+								<td class="column-3">Flat rate: $ 2.00</td>
+							</tr>
+
+							<tr class="table-row">
+								<td class="column-2">Total</td>
+								<td class="column-3">$ 10.00</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<!-- 03 / Payment information -->
+				<div class="wrap-payment" >
+					<h4 class="medium-text-2">03 / Payment information</h4>
+					<p>
+						Credit card (PayPal)
+						<span class="wrap-icon-pay first">
+							<img src="IMG/icons/visa.png" class="img-no-color" alt="img-paypal ">
+							<img src="IMG/icons/visa-img.png" class="img-color" alt="img-paypal ">
+						</span>
+						<span class="wrap-icon-pay">
+							<img src="IMG/icons/paypal.png" class="img-no-color" alt="img-paypal">
+							<img src="IMG/icons/paypal-img.png" class="img-color" alt="img-paypal">
+						</span>
+						<span class="wrap-icon-pay">
+							<img src="IMG/icons/master-card.png" class="img-no-color" alt="img-paypal">
+							<img src="IMG/icons/master-card-img.png" class="img-color" alt="img-paypal">
+						</span>
+						<span class="wrap-icon-pay">
+							<img src="IMG/icons/american-express.png" class="img-no-color" alt="img-paypal">
+							<img src="IMG/icons/american-express-img.png" class="img-color" alt="img-paypal">
+						</span>
+						<span class="wrap-icon-pay">
+							<img src="IMG/icons/discover.png" class="img-no-color" alt="img-paypal">
+							<img src="IMG/icons/discover-img.png" class="img-color" alt="img-paypal">
+						</span>
+					</p>
+					<p>
+						Pay with your credit card via PayPal Website Payments Pro.
+					</p>
+
+					<div class="row">
+						<div class="col-res-payment col-sm-12 col-md-6 col-lg-3">
+							<input class="input-check-out small-text" type="text" name="card-number" placeholder="Card Number">
+						</div>
+						<div class="col-res-payment col-sm-12 col-md-6 col-lg-3">
+							<input class="input-check-out small-text" type="text" name="expiry" placeholder="Expiry (MM/YY)">
+						</div>
+						<div class="col-res-payment col-sm-12 col-md-6 col-lg-3">
+							<input class="input-check-out small-text" type="text" name="card-code" placeholder="Card Code">
+						</div>
+						<div class="col-res-payment col-sm-12 col-md-6 col-lg-3">
+							<button class="btn-with-bg">Place Order</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="content-footer row">
+				<div class="column-footer col-lg-5 col-md-8 col-sm-7">
+					<h3>Contact information</h3>
+					<ul>
+						<li>ADDRESS: 750 N 7th Allentown, PA 18102</li>
+						<li>FOR BOOKING: (333) 333 0256</li>
+						<li id="follow-us">FOLLOW US ON: 
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column-footer col-lg-4 col-md-5 col-sm-7">
+					<h3>Restaurant hours</h3>
+					<ul id="restaurant-hours">
+						<li>
+							<span class="span-left">LUNCH:</span>
+						</li>
+						<li>
+							<span class="span-left">Monday - Friday</span>
+							<span class="span-right">11:30AM - 2:00PM</span>
+						</li>
+						<li>
+							<span class="span-left">DINNER:</span>
+						</li>
+						<li>
+							<span class="span-left">Monday - Friday</span>
+							<span class="span-right">5:30PM - 11:00PM</span>
+						</li>
+						<li>
+							<span class="span-left">Saturday - Sunday</span>
+							<span class="span-right">4:30PM - 10:00PM</span>
+						</li>
+					</ul>
+					<div class="line-divide first-line"></div>
+				</div>
+
+				<div class="column-footer col-lg-3 col-md-3 col-sm-7">
+					<h3>Useful links</h3>
+					<ul id="useful-links">
+						<li>
+							<span class="span-left">
+								<a href="index.html">Home</a>
+							</span> 
+							<span class="span-right">
+								<a href="shop-page.html">Features</a>
+							</span>
+						</li>
+						<li>
+							<span class="span-left">
+								<a href="menu-01.html">Menus</a>
+							</span> 
+							<span class="span-right">
+								<a href="blog-list-with-sidebar-01.html">Blog</a>
+							</span>
+						</li>
+						<li>
+							<span class="span-left">
+								<a href="reservation-01.html">Reservation</a>
+							</span> 
+							<span class="span-right">
+								<a href="contact-us.html">Contact us</a>
+							</span>
+						</li>
+						<li><a href="about-us.html">About us</a></li>
+					</ul>
+					<div class="line-divide second-line"></div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap-bottom-footer">
+			<div class="container">
+				<div class="bottom-footer row justify-content-between">
+					<div class="col-12 col-sm-7">&copy 2018 Rene ~ Morales | All rights reserved.</div>
+					<div class="col-12 col-sm-5"><span>Privacy policy</span><span>Terms of use</span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+<!--===============================================================================================-->	
+	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/dist/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/jqueryui/jquery-ui.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->	
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/daterangepicker-bootstrap/moment.min.js"></script>
+	<script type="text/javascript" src="vendor/daterangepicker-bootstrap/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap-notify/bootstrap-notify.js"></script>
+	<script type="text/javascript" src="js/bootstrap-notify-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+</div>	 
+</body>
+</html>

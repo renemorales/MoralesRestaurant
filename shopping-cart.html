@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Basic Page Needs-->
+	<title>Shopping Cart</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="AuCreative">
+	<meta name="keywords" content="Rene Morales">
+	<!--Mobile Specific Metas-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="IMG/icons/home-boxed-logo.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker-bootstrap/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/jqueryui/jquery-ui.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/dist/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+<div class="animsition">	
+	<header>
+		<!-- Header desktop -->
+		<div id="wrap_header" >
+			<!-- Logo -->		
+			<div class="logo col_header">
+				<a href="index.html"><img alt="logo-restaurant" src="IMG/RestaurantLogo2.0-1.png"></a>
+			</div>
+			<!-- Menu -->
+			<div class="main_nav">
+				<nav class="menu col_header">
+					<ul class="main_menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu-01.html">Menus</a></li>
+						<li><a href="reservation-01.html" class="have_sub_menu">Reservation</a></li>
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="shopping-cart.html">Features</a>
+							<ul class="sub_menu">
+								<li><a href="shopping-cart.html">Shopping Cart</a></li>
+								<li><a href="check-out.html">Check Out</a></li>
+							</ul>
+						</li>
+						<li><a href="contact-us.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Socials -->
+			<div class="icon-header col_header">
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div id="wrap_header_mobile">
+		
+			<!-- Logo moblie -->		
+			<div class="logo-mobile">
+				<a href="index.html"><img alt="logo-restaurant" src="IMG/RestaurantLogo2.0-1.png"></a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu">
+				<button class="btn-show-menu-mobile hamburger hamburger--squeeze" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>	
+		</div>
+
+		<!-- Menu Mobile -->
+		<div class="wrap-side-menu" >
+			<nav class="side-menu">
+				<ul class="main-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu-01.html">Menus</a></li>
+					<li><a href="reservation-01.html">Reservation</a></li>
+					<li><a href="about-us.html">About us</a></li>
+					<li><a href="shopping-cart.html">Features</a>
+						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
+						<ul class="sub-menu">
+							<li><a href="shopping-cart.html">Shopping Cart</a></li>
+							<li><a href="check-out.html">Check Out</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="contact-us.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Title page -->
+	<section>
+		<div class="bg-title-sub-page bg-menu-page-02 ">
+			<div class="wrap-title-sub-page">
+				<h2 class="title-l">Shopping Cart</h2>
+			</div>
+		</div>
+	</section>
+
+	<section class="content-shopping-cart-page">
+		<div class="container">
+			<form>
+				<div class="wrap-table-shopping-cart">
+					<table class="table-shopping-cart">
+						<tr class="table_head">
+							<th class="column-1">Product</th>
+							<th class="column-2">Name & Description</th>
+							<th class="column-3">Price</th>
+							<th class="column-4">Quantity</th>
+							<th class="column-5">Total</th>
+							<th class="column-6"></th>
+						</tr>
+
+						<tr>
+							<td class="column-1">
+								<div class="img-product">
+									<img src="IMG/pork ribollita.jpg" alt="img-product">
+								</div>
+							</td>
+							<td class="column-2">Pork ribollita</td>
+							<td class="column-3">$ 10.50</td>
+							<td class="column-4">
+								<input class="input-num-product small-text" type="text" name="num-product" value="1" placeholder="1">
+							</td>
+							<td class="column-5">$ 20.00</td>
+							<td class="column-6">
+								<i class="btn-remove-product fa fa-times" aria-hidden="true"></i>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="column-1">
+								<div class="img-product">
+									<img src="IMG/Potato gnocchi.jpeg" alt="img-product">
+								</div>
+							</td>
+							<td class="column-2">Potato gnocchi</td>
+							<td class="column-3">$ 20.00</td>
+							<td class="column-4">
+								<input class="input-num-product small-text" type="text" name="num-product" value="2" placeholder="1">
+							</td>
+							<td class="column-5">$ 40.00</td>
+							<td class="column-6">
+								<i class="btn-remove-product fa fa-times" aria-hidden="true"></i>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="wrap-coupon">
+					<div class="row">
+						<div class="wrap-title-coupon col-responsive-shopping-cart col-md-10 col-lg-10">
+							<h4 class="title-coupon">Coupon Code</h4>
+						</div>
+
+						<div class="wrap-input-coupon col-responsive-shopping-cart col-md-10 col-lg-10">
+							<input  type="text" class="input-coupon small-text" name="your-coupon" placeholder="Enter your coupon here">
+						</div>
+						<div class="wrap-btn-coupon col-responsive-shopping-cart col-md-10 col-lg-2">
+							<button type="button" class="btn-coupon btn-with-bg">Apply Coupon</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrap-estimate-shipping-extend wrap-coupon">
+					<div class="row">
+						<div class="wrap-title-coupon col-responsive-shopping-cart col-md-10 col-lg-10">
+							<h4 class="title-coupon">Estimate Shipping</h4>
+						</div>
+
+						<div class="wrap-chose-address-extend wrap-input-coupon col-responsive-shopping-cart col-md-10 col-lg-10">
+							<div class="row">
+								<div class="col-responsive-chose-address left col-md-12 col-lg-6">
+									<select class="chose-people" name="chose-people">
+										<option>City</option>
+										<option>City 2</option>
+										<option>City 3</option>
+										<option>City 4</option>
+										<option>City 5</option>
+										<option>City 6</option>
+									</select>
+								</div>
+
+								<div class="col-responsive-chose-address right  col-md-12 col-lg-6">
+									<select class="chose-time" name="chose-time">
+										<option>State</option>
+										<option>State 2</option>
+										<option>State 3</option>
+										<option>State 4</option>
+										<option>State 5</option>
+										<option>State 6</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						
+						<div class="wrap-input-coupon col-responsive-shopping-cart col-md-10 col-lg-10">
+							<input  type="text" class="input-coupon small-text" name="your-coupon" placeholder="Enter your post code here">
+						</div>
+
+						<div class="wrap-btn-coupon col-responsive-shopping-cart col-md-10 col-lg-2 ">
+							<button type="button" class="btn-coupon btn-with-bg">Update Total</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrap-total clearfix">
+						<div class="style-pos col-right">
+							<h6 class="larg-text">Total: $100.00</h6>
+							<button class="btn-with-bg">Proceed To Checkout</button>
+						</div>
+						<div class="style-pos col-left">
+							<a href="shop-page.html" class="small-text"><i class="fa fa-angle-left" aria-hidden="true"></i> Continue to shopping</a>
+						</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="content-footer row">
+				<div class="column-footer col-lg-5 col-md-8 col-sm-7">
+					<h3>Contact information</h3>
+					<ul>
+						<li>ADDRESS: 750 N 7th Allentown, PA 18102</li>
+						<li>FOR BOOKING: (333) 333 0256</li>
+						<li id="follow-us">FOLLOW US ON: 
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column-footer col-lg-4 col-md-5 col-sm-7">
+					<h3>Restaurant hours</h3>
+					<ul id="restaurant-hours">
+						<li>
+							<span class="span-left">LUNCH:</span>
+						</li>
+						<li>
+							<span class="span-left">Monday - Friday</span>
+							<span class="span-right">11:30AM - 2:00PM</span>
+						</li>
+						<li>
+							<span class="span-left">DINNER:</span>
+						</li>
+						<li>
+							<span class="span-left">Monday - Friday</span>
+							<span class="span-right">5:30PM - 11:00PM</span>
+						</li>
+						<li>
+							<span class="span-left">Saturday - Sunday</span>
+							<span class="span-right">4:30PM - 10:00PM</span>
+						</li>
+					</ul>
+					<div class="line-divide first-line"></div>
+				</div>
+
+				<div class="column-footer col-lg-3 col-md-3 col-sm-7">
+					<h3>Useful links</h3>
+					<ul id="useful-links">
+						<li>
+							<span class="span-left">
+								<a href="index.html">Home</a>
+							</span> 
+							<span class="span-right">
+								<a href="shop-page.html">Features</a>
+							</span>
+						</li>
+						<li>
+							<span class="span-left">
+								<a href="menu-01.html">Menus</a>
+							</span> 
+							<span class="span-right">
+								<a href="blog-list-with-sidebar-01.html">Blog</a>
+							</span>
+						</li>
+						<li>
+							<span class="span-left">
+								<a href="reservation-01.html">Reservation</a>
+							</span> 
+							<span class="span-right">
+								<a href="contact-us.html">Contact us</a>
+							</span>
+						</li>
+						<li><a href="about-us.html">About us</a></li>
+					</ul>
+					<div class="line-divide second-line"></div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap-bottom-footer">
+			<div class="container">
+				<div class="bottom-footer row justify-content-between">
+					<div class="col-12 col-sm-7">&copy 2018 Rene ~ Morales | All rights reserved.</div>
+					<div class="col-12 col-sm-5"><span>Privacy policy</span><span>Terms of use</span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+<!--===============================================================================================-->	
+	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/dist/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/jqueryui/jquery-ui.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->	
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/daterangepicker-bootstrap/moment.min.js"></script>
+	<script type="text/javascript" src="vendor/daterangepicker-bootstrap/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap-notify/bootstrap-notify.js"></script>
+	<script type="text/javascript" src="js/bootstrap-notify-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+</div>
+</body>
+</html>
