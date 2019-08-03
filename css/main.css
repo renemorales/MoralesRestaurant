@@ -741,7 +741,7 @@ iframe {
 /*=================================================================== Banner ===*/
 
 .parallax-banner{
-	background-image: url("/IMG/banner-home-page-01.jpg");
+	background-image: url("../IMG/banner-home-page-01.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -749,7 +749,7 @@ iframe {
 }
 
 .content-banner {
-	background-image: url("/IMG/icons/background-line.png");
+	background-image: url("../IMG/icons/background-line.png");
 	background-repeat: repeat;
 	background-size: auto;
 	width: 100%;
@@ -947,7 +947,7 @@ iframe {
 /*=================================================================== Reservation ===*/
 
 .parallax-banner-2 {
-	background-image: url("/IMG/banner-home-page-02.jpg");
+	background-image: url("../IMG/banner-home-page-02.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1296,7 +1296,7 @@ footer ul li a:hover {
 
 /*------------------------------------------------------------------- Intro ---*/
 .wrap-intro {
-	background-image: url('/IMG/bg-intro.jpg');
+	background-image: url('../IMG/bg-intro.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1497,6 +1497,7 @@ footer ul li a:hover {
 .bg-menu-page-01 {
 	background-image: url('../IMG/delicious-pasta.jpg');
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .our-menu.for-menu-page .title-our-menu {
@@ -3372,7 +3373,7 @@ background-color: #999999;
 
 /*=================================================================== Intro ===*/
 .wrap-home-onepage .wrap-intro {
-	background-image: url('/IMG/home-onepage-bg-intro.jpg');
+	background-image: url('../IMG/home-onepage-bg-intro.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
