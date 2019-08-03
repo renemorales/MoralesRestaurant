@@ -1358,7 +1358,7 @@ footer ul li a:hover {
 
 /*------------------------------------------------------------------- Banner ---*/
 .parallax-banner.for-vertical-page {
-	background-image: url("/IMG/banner-vertical-menu-page-01.jpg");
+	background-image: url("../IMG/banner-vertical-menu-page-01.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1447,7 +1447,7 @@ footer ul li a:hover {
 /*[ Banner ]
 ===========================================================*/
 .parallax-banner-3 {
-	background-image: url("/IMG/banner-menu-page-01.jpg");
+	background-image: url("../IMG/banner-menu-page-01.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1455,7 +1455,7 @@ footer ul li a:hover {
 }
 
 .parallax-banner-4 {
-	background-image: url("/IMG/banner-menu-page-02.jpg");
+	background-image: url("../IMG/banner-menu-page-02.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1495,7 +1495,7 @@ footer ul li a:hover {
 /*===================================================================  ===*/
 
 .bg-menu-page-01 {
-	background-image: url('/home/rene/Documents/software Engineer project/project/Morales Restaurant/IMG/delicious-pasta.jpg');
+	background-image: url('../IMG/delicious-pasta.jpg');
 	background-attachment: fixed;
 }
 
@@ -1520,7 +1520,7 @@ footer ul li a:hover {
 	padding-bottom: 70px;
 }
 .bg-menu-page-02 {
-	background-image: url('/home/rene/Documents/software Engineer project/project/Morales Restaurant/IMG/resturantplace.jpg');
+	background-image: url('../IMG/resturantplace.jpg');
 	background-attachment: fixed;
 }
 .content-menu-02 .hover-img {
@@ -1562,7 +1562,7 @@ footer ul li a:hover {
 /*///////////////////////////////////////////////////////////////////////////////////// Reservation 01 /*/
 
 .bg-reservation-01-page {
-	background-image: url('/home/rene/Documents/software Engineer project/project/Morales Restaurant/IMG/dinnerH.jpg');
+	background-image: url('../IMG/dinnerH.jpg');
 	background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1684,7 +1684,7 @@ footer ul li a:hover {
 }
 
 .wrap-intro.for-about-us {
-	background-image: url('/IMG/bg-about-us-01.jpg');
+	background-image: url('../IMG/bg-about-us-01.jpg');
 	padding-bottom: 70px;
 }
 
