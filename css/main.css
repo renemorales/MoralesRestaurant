@@ -145,24 +145,13 @@ iframe {
 } 
 
 /*------------------------------------------------------------------- Logo ---*/
-.logo {
-	/*width: 100px;*/
-	/*height: 100%;*/
-	/*left: 0;
-	top: 0;
-	position: absolute;*/
-}
+
 .logo a{
-	/*display: block;*/
-	/*width: 5px;*/
 	position: absolute;
 	top: -35%;
 	left: -5%;
-	/*transform: translate(-50%,-50%);*/
 }
 .logo>a>img {
-	/*max-width: 100%;*/
-	/*vertical-align: middle;*/
 	width: 400px;
 }
 
@@ -226,7 +215,6 @@ iframe {
  	color: #e52233;
  	text-decoration: none;
 }
-/* .main_menu>li:hover span{border-left: 5px solid #e52233; transform: rotate(90deg);} */
 .main_menu>li:hover .sub_menu{
 	visibility: visible;
 	opacity: 1;
@@ -268,12 +256,7 @@ iframe {
 .sub_menu li:hover>.sub_menu {
 	display: block;
 } 
-/* .show_sub_menu>.sub_menu {
-	display: block;
-} */
-/* .show_sub_menu>span {
-	transform: rotate(90deg);
-} */
+
 .sub_menu li, .sub_menu a {
 	padding: 10px;
 	font-family: OpenSans;
@@ -312,7 +295,6 @@ iframe {
 #wrap_header_mobile {
 	justify-content: space-between;
 	height: 90px;
-	/*height: 200px;*/
 	background-color: black;
 	display: none;
 }
@@ -360,7 +342,6 @@ iframe {
 .wrap-side-menu {
 	width: 100%;
 	background-color: #222222;
-	/*background: #e52233;*/
 	display: none;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -533,7 +514,6 @@ iframe {
 }
 .title-our-menu {
 	text-align: center;
-	padding-top: 100px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #e4e4e4;
 	margin-right: 0px;
@@ -748,30 +728,6 @@ iframe {
     background-size: cover; 
 }
 
-/*.content-banner {
-	background-image: url("../IMG/icons/background-line.png");
-	background-repeat: repeat;
-	background-size: auto;
-	width: 100%;
-	padding-top: 120px;
-    padding-bottom: 165px;
-    color: white;
-    text-align: center;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-}*/
-.text-banner > h3 {
-	font-family: PlayfairDisplay-Bold;
-	font-size: 80px;
-	color: white;
-	-webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-}
-
 .symbol-banner {
 	width: 70px;
 	height: 70px;
@@ -894,6 +850,7 @@ iframe {
 }
 .img-event img{
 	width: 100%;
+	height: 246px;
 	transition: all 0.6s ease-in-out;
 	-webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
@@ -1208,90 +1165,6 @@ footer ul li a:hover {
 
 /*................................................................... Footer ...*/
 
-
-/*///////////////////////////////////////////////////////////////////////////////////// Homepage vertical /*/
-
-/*.wrap-vertcal-menu {
-	position: fixed;
-	width: 15%;
-	height: 100%;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	background-color: #111111;
-}
-.wrap-content-page {
-	margin-left: 15%;
-}*/
-
-/*=================================================================== Vertical Menu ===*/
-/*#wrap-header-vertical{
-	position: absolute;
-	width: 100%;
-	top: 0;
-	bottom: 110px;
-	left: 0;
-	padding-top: 50px;
-	overflow: hidden;
-}*/
-/*------------------------------------------------------------------- Logo ---*/
-/*#wrap-header-vertical .logo {
-	position: static;
-	width: 109px;
-	height: 69px;
-	margin: auto;
-	margin-bottom: 20px;
-}
-#wrap-header-vertical .logo a {
-    display: block;
-    width: 100%;
-    top: auto;
-    left: auto;
-    transform: unset;
-}*/
-
-/*------------------------------------------------------------------- Menu ---*/
-/*.wrap-vertcal-side-menu {
-	width: 140px;
-	background-color: #111111;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin: auto;
-	min-height: 715px;
-}
-#wrap-header-vertical li {
-	padding-left: 15px;
-}
-#wrap-header-vertical .side-menu .main-menu .arrow-main-menu {
-	padding: 8px;
-	right: 10px;
-	top: 0px;
-}
-#wrap-header-vertical .side-menu .main-menu > li > a {
-	font-family: OpenSans;
-	font-size: 14px;
-	line-height: 2.1;
-	text-transform: uppercase;
-}*/
-/*------------------------------------------------------------------- icon ---*/
-/*.wrap-vertcal-menu .icon-header {
-	position: absolute;
-	bottom: 0 !important;
-	top: auto !important;
-	left: 0 !important;
-	right: 0 !important;
-    width: 100%;
-    height: 100px !important;
-    text-align: center;
-    line-height: 20px;
-}
-@media (max-width: 1100px){
-	.wrap-vertcal-menu {display: none;}
-	.wrap-content-page {margin-left: 0;}
-}*/
-/*................................................................... Vertical Menu ...*/
-
-
 /*=================================================================== Content page ===*/
 
 /*------------------------------------------------------------------- Intro ---*/
@@ -1496,13 +1369,14 @@ footer ul li a:hover {
 
 .bg-menu-page-01 {
 	background-image: url('../IMG/delicious-pasta.jpg');
-	/*background-attachment: fixed;*/
-	background-size: cover;
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
 }
 
 .our-menu.for-menu-page .title-our-menu {
 	border: none;
-	padding-bottom: 0px;
+	padding-bottom: 50px;
 }
 
 .our-menu.for-menu-page .wrap-list-food {
@@ -1523,6 +1397,8 @@ footer ul li a:hover {
 .bg-menu-page-02 {
 	background-image: url('../IMG/resturantplace.jpg');
 	background-attachment: fixed;
+	top: 0;
+	left: 0;
 }
 .content-menu-02 .hover-img {
 	display: block;
@@ -1565,6 +1441,8 @@ footer ul li a:hover {
 .bg-reservation-01-page {
 	background-image: url('../IMG/dinnerH.jpg');
 	background-attachment: fixed;
+	top: 0;
+	left: 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -2096,13 +1974,7 @@ footer ul li a:hover {
     -o-transition: background-color 0.4s;
     -moz-transition: background-color 0.4s;
 }
-/* #draggable2 {float: left;}
-#draggable3 {float: right;} */
 
-/* #draggable3:hover {
-	cursor: unset;
-	background-color: #e52233;
-} */
 
 .filter-price-bar {
 	width: 100%;
@@ -2115,20 +1987,7 @@ footer ul li a:hover {
 	background-color: #e1e1e1;
 	margin-bottom: 20px;
 }
-/* .begin-point {
-	position: absolute;
-	left: 0;
-	top: 0;
-width: 15px;
-height: 15px;
-border-radius: 50%;
-background-color: #999999;
-} */
-/* .wrap-point {
-	position: absolute;
-	top: 0;
-	left: 0;
-} */
+
 .filter-price-bar span {
 	font-family: OpenSans;
 	font-size: 14px;
@@ -2546,7 +2405,6 @@ background-color: #999999;
 	height: 53px;
 	background-color: #f1f1f1;
 	border: none;
-	/* outline: none; */
 	padding-left: 15px;
 	margin-bottom: 15px;
 }
